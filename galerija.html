@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FacePalm</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	
+		<div class="container-fluid">
+				<a href="#" class="navbar-brad"><img src="img/logo1.png"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a href="index.html" class="nav-link">Sākums</a>
+					</li>
+					<li class="nav-item">
+						<a href="info.html" class="nav-link">Par mani</a>
+					</li>
+					<li class="nav-item">
+						<a href="galerija.html" class="nav-link">Galerija</a>
+					</li>
+					<li class="nav-item">
+						<a href="kontakti.html" class="nav-link">Kontakti</a>
+					</li>
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">Atpakaļ</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="carousel slide" data-ride="carousel" id="slides">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="img/slider_1.png">
+					<div class="carousel-caption">
+						<h1 class="display-2">RVT</h1>
+						<h3>Andrejs Grišinovs</h3>
+						<button type="button" class="btn btn-outline-light btn-lg">Apskatīt</button>
+						<button type="button" class="btn btn-warning btn-lg">Demo</button>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="img/slider_2.jpg">
+				</div>
+				<div class="carousel-item">
+					<img src="img/slider_3.png">
+				</div>
+			</div>
+	</div>
+	<figure>
+		<div class="fixed-wrap">
+			<div id="fixed">
+			</div>
+		</div>
+	</figure>
+	<div class="text-center">
+		<button type="button" id="gifsBtn" class="btn btn-success" data-toggle="collapse" data-target="#gifs">Atvērt bloks</button>
+	</div>
+	<div id="gifs" class="collapse">
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<div class="col-sm-6 col-md-3">
+					<img src="img/gif_1.gif" class="gif">
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img src="img/gif_2.gif" class="gif">
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img src="img/gif_3.gif" class="gif">
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img src="img/gif_4.gif" class="gif">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid padding">
+	<center>
+		<div class="row alert">
+			<div class="col-12">
+				<h1 class="display-4">Galerija</h1>
+			</div>
+			<hr>
+		</div>
+	</center>
+	</div>
+	<div class="container padding">
+		<div class="row padding">
+			<div class="col-md-4">
+				<div class="card">
+					<img src="http://www.radionetplus.ru/uploads/posts/2013-04/1365401196_teplye-oboi-1.jpeg" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">Attēls</h4>
+						<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+						<a href="#" class="btn btn-warning">Apskatīt</a>
+					</div>
+				</div>
+			</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img src="https://vjoy.cc/wp-content/uploads/2019/07/1-1.jpg" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Attēls</h4>
+					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+					<a href="#" class="btn btn-warning">Apskatīt</a>
+				</div>
+			</div>
+		</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img src="https://bipbap.ru/wp-content/uploads/2017/04/98a100e2d18a90c190b2c2b9ca4.jpg" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">Attēls</h4>
+						<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+						<a href="#" class="btn btn-warning">Apskatīt</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="container-fluid">
+		<div class="container-fluid">
+			<div class="raw padding text-center">
+				<div class="col-12">
+					<h2>Kontakti</h2>
+				</div>
+				<div class="col-12 social padding">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.instagram.com/dubrovskiy__r/"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+					<a href="https://www.facebook.com/profile.php?id=100006816121591&ref=bookmarks"><i class="fab fa-facebook"></i></a>
+					<a href="https://vk.com/blackarab_b"><i class="fab fa-vk"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html> 
